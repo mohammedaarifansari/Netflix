@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #000;
+}
+.main_banner{
+  height: 90vh;
+  width: 100vw;
+  background-image: url(image/main-banner.jpg);
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.nav{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  background-image: url(image/logo.png);
+  background-size: cover;
+  height: 50px;
+  z-index: 10;
+}
+
+.left {
+  padding-left: 10%;
+}
+
+button{
+  z-index: 5;
+  margin: 5px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.one {
+  border: 1px solid white;
+}
+.red {
+  background-color: red;
+}
+
+.right {
+  padding-right: 10%;
+}
+
+.info {
+  z-index: 10;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+
+.p-1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.p-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.email {
+  padding: 15px 55px 15px 55px;
+  color: white;
+  background-color: #000;
+  border: 1px solid white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.started {
+  padding: 15px 35px 15px 35px;
+  font-size: 1.5rem;
+}
+
+.line {
+  height: 10px;
+  width: 100vw;
+  background-color: rgb(53, 52, 52);
+}
+
+.containt {
+  height: 80vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 50px;
+}
+
+.bigp {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.para {
+  text-align: center;
+  font-weight: 500;
+}
+
+.video-1 {
+  height: 80%;
+  width: 40%;
+  background-image: url(video/tv.png);
+  background-position: center;
+}
+
+.video-1 .vi {
+  height: 65%;
+  width: 86%;
+  background-position: center;
+  margin-top: 63px;
+  margin-left: 36px;
+  overflow: hidden;
+}
+
+.v2 {
+  background-image: url(video/mobile-2.jpg);
+}
+
+.v3 {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png);
+}
+
+.v4 {
+  background-image: url(image/children.png);
+}
+
+.QandA {
+  height: 90%;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+
+.Heading {
+  font-size: 2.8rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.question {
+  height: 90%;
+  width: 75%;
+  margin-top: 30px;
+  margin-left: 10%;
+  font-size: 1.5rem;
+}
+
+.Q {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 15px;
+  background-color: rgb(46, 46, 46);
+}
+
+.Q:hover {
+  background-color: rgb(65, 64, 64);
+}
+
+.para-q {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.botom {
+  margin-bottom: 70px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerdiv {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 75vw;
+  color: rgb(192, 190, 190);
+  margin-top: 40px;
+}
+
+a {
+  color: rgb(192, 190, 190);
+  line-height: 40px;
+}
